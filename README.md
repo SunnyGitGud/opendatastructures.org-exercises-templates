@@ -1,6 +1,6 @@
 # Open Data Structures – C++ Exercise Templates
 
-This repository contains C++ templates and solutions for exercises from [Open Data Structures](http://opendatastructures.org/), a free and open-source textbook on data structures.
+This repository contains C++ templates for exercises from [Open Data Structures](http://opendatastructures.org/), a free and open-source textbook on data structures.
 
 ## 📂 Structure
 
