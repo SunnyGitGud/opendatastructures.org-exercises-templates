@@ -21,7 +21,7 @@ g++ -std=c++11 -o array_exercises paste.txt
 ## 📁 Project Structure
 
 ```
-paste.txt
+arrayExtem.cpp
 ├── Exercise 2.1 - ArrayStack (Bulk Insertion Optimization)
 ├── Exercise 2.2 - MemoryEfficientArrayStack 
 ├── Exercise 2.3 - BidirectionalArrayStack
@@ -33,12 +33,8 @@ paste.txt
 
 ## 🔧 Current Status
 
-### ✅ Fully Implemented & Tested
-- **Exercise 2.1**: ArrayStack with bulk insertion optimization
-  - `addAll_inefficient()` - demonstrates O(k²) complexity
-  - `addAll_efficient()` - optimized O(k) bulk insertion
-
 ### 🚧 Partially Implemented (TODO sections need completion)
+- **Exercise 2.1**: ArrayStack with bulk insertion optimization
 - **Exercise 2.2**: MemoryEfficientArrayStack
 - **Exercise 2.3**: BidirectionalArrayStack  
 - **Exercise 2.4**: RootishArrayStack
@@ -47,20 +43,7 @@ paste.txt
 
 ## 🛠️ How to Complete the Exercises
 
-### Step 1: Fix Compilation Issues
-Before implementing, fix these syntax errors in the file:
-
-1. **Line ~158**: Change `}t i) {` to `T remove(int i) {`
-2. **Add missing method** to `MemoryEfficientArrayStack`:
-   ```cpp
-   int getCapacity() const { return capacity; }
-   ```
-3. **Add missing include**:
-   ```cpp
-   #include <functional>
-   ```
-
-### Step 2: Implement Each Exercise
+### Step 1: Implement Each Exercise
 
 #### Exercise 2.2 - Memory-Efficient Operations
 **Goal**: Implement smart resizing and proper memory cleanup
@@ -237,7 +220,7 @@ Total:  48
 - **Defensive Programming**: Validating all inputs
 - **State Consistency**: Maintaining invariants after errors
 - **Resource Safety**: Proper cleanup on exceptions
-
+:
 ### Exercise 2.6 - Algorithm Comparison
 - **Trade-off Analysis**: Memory vs resize frequency
 - **Empirical Testing**: Measuring real performance

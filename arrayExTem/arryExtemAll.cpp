@@ -28,16 +28,7 @@ private:
     void resize() {
         // TODO: Implement resize operation
         // Hint: typically double the capacity when growing
-        int new_capacity = std::max(1, capacity * 2);
-        T* new_array = new T[new_capacity];
-        
-        for (int i = 0; i < n; i++) {
-            new_array[i] = a[i];
-        }
-        
-        delete[] a;
-        a = new_array;
-        capacity = new_capacity;
+       
     }
 
 public:
@@ -97,12 +88,7 @@ public:
     void addAll_inefficient(int i, const Container& c) {
         // TODO: Implement using repeated calls to add(i, x)
         // This should demonstrate why this approach is slow
-        int pos = i;
-        for (const auto& element : c) {
-            add(pos, element);
-            pos++;
-        }
-    }
+           }
     
     // Method 2: Efficient implementation 
     template<typename Container>
@@ -110,30 +96,14 @@ public:
         // TODO: Implement efficient version
         // Steps:
         // 1. Calculate how many elements to insert (k = c.size())
-        if (i < 0 || i > n) throw std::out_of_range("Index out of bounds");
-        
-        int k = c.size();
-        if (k == 0) return;
-        
-        // 2. Check if resize is needed (if n + k > capacity)
-        while (n + k > capacity) {
-            resize();
-        }
-        
+              
         // 3. Perform single shift operation to make space
-        for (int j = n - 1; j >= i; j--) {
-            a[j + k] = a[j];
-        }
-        
+              
         // 4. Copy all elements from container c at once
-        int pos = i;
-        for (const auto& element : c) {
-            a[pos] = element;
-            pos++;
-        }
+     
         
         // 5. Update n
-        n += k;
+       
     }
 };
 
