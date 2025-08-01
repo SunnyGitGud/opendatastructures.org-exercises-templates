@@ -1,34 +1,48 @@
-# Open Data Structures – C++ Exercise Templates
+## Open Data Structures Exercises
 
-This repository contains C++ templates for exercises from [Open Data Structures](http://opendatastructures.org/), a free and open-source textbook on data structures.
+This repository contains exercises and solutions sourced from Open Data Structures, organized for practice and reference.
+Repository Structure
 
-## 📂 Structure
+    Exercises/ — Contains exercise questions sourced from Open Data Structures.
 
-### `arrayExTem/`
-This folder includes template files for exercises from the **Arrays** chapter. These templates are minimal C++ setups that define the problem structure without full implementations, meant for practicing and solving the problems yourself.
+    Answers/ — Contains solutions and implementations for the corresponding exercises.
 
-### `arrayExTem/arryExtemAll.cpp`
-An example file with multiple array-related implementations combined together. This may serve as a scratchpad or bulk practice file.
+Purpose
 
-## ✅ Completed Chapters
+This repo serves as a structured resource to:
 
-- [x] Arrays
+    Practice data structures and algorithms based on the Open Data Structures textbook.
 
-## 🛠️ In Progress
+    Provide clear, organized solutions for learning and reference.
 
-- [ ] Linked List 
-- [ ] more
-- [ ] more code  
-- [ ] more code
+    Facilitate self-study and coding practice.
 
-## 📘 Reference
+How to Use
 
-All problems are derived from:
-**Pat Morin – [Open Data Structures](http://opendatastructures.org/)**  
-(C++) Edition
+    Browse the Exercises/ folder to find problems you want to solve.
 
-## 📌 Notes
+    Attempt the problem on your own.
 
-This is an educational and practice-oriented repository. Contributions, suggestions, or corrections are welcome as more chapters are covered.
+    Check the Answers/ folder for sample solutions or your own implementations.
 
+    Feel free to add your own solutions or improve existing ones via pull requests.
 
+Technologies
+
+    C++ is used as the primary language for solutions.
+
+    Standard Library components like std::vector and std::mt19937 are used.
+
+    The repository is intended for learners familiar with basic C++ and data structures.
+
+Contributing
+
+Contributions are welcome! If you:
+
+    Want to add new exercises,
+
+    Provide alternative or optimized solutions,
+
+    Or improve documentation,
+
+please open an issue or submit a pull request.
