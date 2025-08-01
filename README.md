@@ -31,7 +31,7 @@ Technologies
 
     C++ is used as the primary language for solutions.
 
-    Standard Library components like std::vector and std::mt19937 are used.
+    Standard Library components 
 
     The repository is intended for learners familiar with basic C++ and data structures.
 
